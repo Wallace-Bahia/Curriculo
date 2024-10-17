@@ -1,0 +1,371 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+header{
+    margin: 35px 0;
+    width: 100%;
+    display: inline-block;
+}
+a{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  color: black;
+}
+#header{
+  float: left;
+  width: 30%;
+}
+
+#apresentacao{
+  margin-top: 6px;
+  margin-left: 35px;
+}
+
+#nome{
+  font-size: 30px;
+  margin-left: 35px;
+  
+}
+
+/*************MENU FLUTUANTE****************/
+#menu{
+  width: 70%;
+  float: right;
+  display: inline-block;
+}
+#op-menu{
+  
+}
+
+#lista{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  font-size: 15px;
+  width: 660px;
+  margin: 15px auto 15px auto;
+}
+.lista-menu{
+  margin: 0 10px;
+}
+
+/**********INFORMAÇÕES PESSOAIS E FOTOS********/
+#infopessoais{
+  background-image: url(/IMG/FUNDO.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.efeitofundo{
+  background: rgba( 24, 33, 83, 0.6 );
+  backdrop-filter: blur( 3.5px );
+}
+img{
+  width: 100%;
+}
+
+/*******************FOTO*********************/
+#foto{
+  width: 400px;
+  height: 490px;
+  margin-top: 135px;
+  overflow: hidden;
+  display: inline-block;
+  background: white;
+}
+
+/****************INFORMAÇÕES****************/
+#conteiner-info{
+  display: flex;
+  justify-content: center;
+  
+}
+#informacao{
+  display: inline-block;
+  height: 490px;
+  width: 400px;
+  margin-top: 135px;
+  font-size: 25px;
+  background: white;
+}
+#info{
+  margin: 50px;
+}
+
+#nome2{
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+#interesse{
+  margin: 0;
+}
+
+.dados{
+  margin: 0;
+  padding: 0;
+}
+
+h6{
+  margin-bottom: 0;
+  
+}
+p{
+  font-size: 15px;
+  margin: 0;
+}
+
+/****************LINKS DE REDES SOCIAIS****************/
+#redessociais{
+  background: #dcdcdc;
+}
+#conteinerredes{
+  margin: auto;
+  width: 800px;
+  padding: 20px 0;
+  background-color: rgb(24 33 83);
+}
+#poss{
+  width: max-content;
+  margin: auto;
+}
+
+.redes{   /********LINK DE TODAS AS REDES**********/
+  margin: 15px;
+} 
+.imgredes{   /*****TODAS AS IMAGENS DAS REDES SOCIAIS********/
+  width: 25px;
+} 
+
+/*****************RESUMO SOBRE MIM*********************/
+#introducao{
+  background: #dcdcdc;
+}
+#textintro{
+  text-align: center;
+  padding: 105px 70px;
+}
+#intro{
+  margin: auto;
+  width: 800px;
+  font-size: 30px;
+  padding: 0 0 25px 0;
+}
+#sobremim{
+  margin: auto;
+  width: 750px;
+  font-size: 20px;
+}
+
+/*****************EXPERIENCIA*********************/
+#experiencia{
+  display: inline-block;
+  width: 100%;
+}
+#titulo{
+  border-color: #dcdcdc;
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+}
+#todasXP{
+  padding: 50px 0 50px 25%;
+}
+
+.xp{
+  overflow: hidden;
+  margin: 50px 0;
+}
+.dataEcargo{
+  float: left;
+  font-size: 18px;
+  text-align: right;
+  width: 25%;
+  margin: 0 0 0 25px;
+}
+
+.ponto{
+  float: left;
+  background: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  margin: 50px 3% 25px 3%;
+}
+  
+
+.dadosDAempresa{
+  float: left;
+  font-size: 18px;
+  width: 60%;
+  text-align: justify;
+}
+
+/*****************FORMAÇÃO ACADEMICA*******************/
+
+#formacao{
+  display: inline-block;
+  width: 100%;
+}
+
+#todasformacao{
+  padding: 50px 0 50px 25%;
+}
+
+.academica{
+  overflow: hidden;
+  margin: 50px 0;
+}
+.datanivel{
+  float: left;
+  font-size: 18px;
+  text-align: right;
+  width: 25%;
+  margin: 0 0 0 25px;
+} 
+
+.dadosDOcurso{
+  float: left;
+  font-size: 18px;
+  width: 60%;
+  text-align: justify;
+}
+
+/**************** HABILADADE ******************/
+#todosOSconhecimento{
+  text-align: center;
+  font-size: 15px;
+  background-image: url(/IMG/FUNDO.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+#titulo2{
+  border-color: white;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  background-color: rgb(24 33 83);  
+  color: white;
+}
+
+#todasHabilidades{
+  padding: 50px;
+}
+
+.habilidade{
+  display: inline-block;
+  width: 400px;
+  
+}
+
+.conhecimento{
+  background-color: rgba(255, 255, 255, 0.25);;
+  padding: 4px;
+  margin: 20px;
+}
+
+/*************ESPECIALIDADE***************/
+#minhasEspecialidades{
+  display: none;
+}
+#todasASespecialidades{
+  font-size: 18px;
+  margin: 100px 0;
+}
+
+#especialidade{
+  display: inline-grid;
+  grid-template-columns: 33.3% 33.3% 33.3%
+}
+
+.espe{
+  margin: 0 40px;
+}
+
+/*****************CONTATO*****************/
+#todosOScontatos{
+  display: inline-block;
+  width: 100%;
+  background: #dcdcdc;
+}
+#titulo3{
+  border-color: white;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  font-size: 25px;
+  text-align: center;
+}
+#redesEcontatos{
+  width: 400px;
+  display: inline-block;
+  float: right;
+  margin: 50px 80px 70px 0;
+}
+.meuscontatos{
+  width: 100%;
+  font-size: 15px;
+  margin: 35px 150px 35px 0;
+}
+.contato{
+  
+}
+#ne1{
+  margin: 0;
+  font-size: 25px;
+}
+#ne2{
+  margin: 0;
+}
+.c1{
+  margin: 0;
+}
+.c2{
+  margin: 0;
+  font-weight: normal;
+  font-size: 15px;
+}
+.redes3{
+  
+}
+.imgredes3{
+  width: 25px;
+  margin: 0 10px;
+}
+
+#outroconteinerredes{
+  border-color: black;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  padding: 15px 0;
+}
+
+/****************RODAPÉ*******************/
+footer{
+  padding: 20px 40px;
+  color: darkkhaki;
+}
+
+
+
+/*****************VERSÃO CELULAR*****************/
+@media screen and (max-width: 992px)
+{
+  html, body {
+    width: fit-content;
+  }
+}
