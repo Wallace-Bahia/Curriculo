@@ -59,7 +59,7 @@ a{
 
 /**********INFORMAÇÕES PESSOAIS E FOTOS********/
 #infopessoais{
-  background-image: url(/IMG/FUNDO.jpg);
+  background-image: url(IMG/FUNDO.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
