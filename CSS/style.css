@@ -59,7 +59,7 @@ a{
 
 /**********INFORMAÇÕES PESSOAIS E FOTOS********/
 #infopessoais{
-  background-image: url(IMG/FUNDO.jpg);
+  background-image: url(../IMG/FUNDO.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -246,7 +246,7 @@ p{
 #todosOSconhecimento{
   text-align: center;
   font-size: 15px;
-  background-image: url(/IMG/FUNDO.jpg);
+  background-image: url(../IMG/FUNDO.jpg);
   background-attachment: fixed;
   background-size: 100%;
 }
